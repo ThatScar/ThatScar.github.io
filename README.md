@@ -1,2 +1,3 @@
-# ThatScar.github.io
-Magnecopter game
+# ThatScar
+Mouse Puzzlescript;
+Magnectoper game;
