@@ -258,13 +258,11 @@
 	    }
 	    
 	    window.onload = function() {
-			levelCount = state.levels.length-1;
+		levelCount = state.levels.length-1;
 
-	        try {
-		        if(window.localStorage) {
-					localStorage[document.URL + "version"] = 1;
-		        }
-            	}
+		if(window.localStorage) {
+			localStorage[document.URL + "version"] = 1;
+		}
 
 	        var levelSelect = document.getElementById("levelSelect");
 	        var levelNumber = 1;
