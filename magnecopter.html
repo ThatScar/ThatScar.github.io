@@ -244,31 +244,6 @@
 	        //console.log(document.activeElement);
 	    }
 
-	    function toggleMusic() {
-	        if(playerMuted) {
-	        	console.log("unmuting player");
-	            player.unMute();
-	            document.getElementById("muteLink").innerHTML = "Mute Ambience";
-	            playerMuted = false;
-	        }else {
-	        	console.log("muting player");
-	            player.mute();
-	            document.getElementById("muteLink").innerHTML = "Unmute Ambience";
-	            playerMuted = true;
-	        }
-
-	        try {
-                if(window.localStorage) {
-                    localStorage[document.URL + "playerMuted"] = playerMuted;
-                    console.log("playerMuted set as " + playerMuted);
-                } else {
-					console.log("no storage found when muting player");
-				}
-            }catch (e) {}
-	        
-	        lastDownTarget = canvas;
-	    }
-
 	    function levelSelectButtonClicked() {
 	        loadLevel(parseInt(this.value));
 	        toggleLevelSelection();
@@ -288,13 +263,8 @@
 	        try {
 		        if(window.localStorage) {
 					localStorage[document.URL + "version"] = 1;
-		        	playerMuted = (localStorage[document.URL + "playerMuted"] == "true") ? false : true;
-		            console.log("playerMuted? " + playerMuted);
-		            toggleMusic();
-		        } else {
-					console.log("no storage found when asking if player should be muted on load");
-				}
-            }catch (e) {}
+		        }
+            	}
 
 	        var levelSelect = document.getElementById("levelSelect");
 	        var levelNumber = 1;
@@ -320,7 +290,6 @@
 
 	        document.getElementById("levelSelectContainer").addEventListener("keypress", levelSelectKeyPress);
 	        document.getElementById("levelSelectLink").addEventListener("keypress", levelSelectKeyPress);
-	        document.getElementById("muteLink").addEventListener("release", toggleMusic);
 	        
 	        for(var i = 0; i <= 38; i++) {
 	            var levelNotMessage = addButtonToLevelSelect(i);
@@ -345,11 +314,6 @@
 	        document.getElementById("levelSelectClose").onclick = function(e) {
 	            e.preventDefault();
 	            toggleLevelSelection();
-	        }
-
-	        document.getElementById("muteLink").onclick = function(e) {
-	            e.preventDefault();
-	            toggleMusic();
 	        }
 
 	        window.onmouseup = function() {
@@ -457,9 +421,7 @@
 
     <div class="footer">
         <a href="#" tabindex="1" id="levelSelectLink">Level Select</a>
-        <a href="#" tabindex="2" id="muteLink">Mute Ambience</a>
     </div>
-    <div id="youtubePlayer"></div>
     <script>
         function doSetupTitleScreenLevelContinue() {
             try {
