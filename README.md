@@ -1,23 +1,23 @@
 # ThatScar's online portfolio
 Shortlist of my online presence  
 ## Playable games
-Games you can and should go play right now! Most of these are puzzle, strategy and resource management games  
+Games you can and should go play right now! Mostly puzzle games  
 ### Commercial video game contributions
 [View Skalmantas Šimėnas on MobyGames](https://www.mobygames.com/person/980287/skalmantas-simenas/)  
 #### Testing
 Direct contributions, credited as Skalmantas Šimėnas (repeated alpha testing, looking for bugs, recording videos on how to reproduce them, etc.):  
-**Induction** (released 2017) by Bryan Gale - https://www.inductiongame.com/  
-**Baba is You** (released 2019) by Arvi Teikari ("Hempuli") - https://www.hempuli.com/baba/  
-**The Golem** (released 2020) by Dom Camus - https://bateleur.itch.io/the-golem  
+**[Induction](https://www.inductiongame.com/)** (2017) by Bryan Gale  
+**[Baba is You](https://www.hempuli.com/baba/)** (2019) by Arvi Teikari ("Hempuli")  
+**[The Golem](https://bateleur.itch.io/the-golem)** (2020) by Dom Camus  
 
-Closed beta participation (just playing a game, reporting bugs in-app and filling out surveys):
-[Slipways](https://store.steampowered.com/app/1264280/Slipways/) (2021), [Old World](https://store.steampowered.com/app/597180/Old_World/) (2022), [Islands of Insight](https://store.steampowered.com/app/2071500/Islands_of_Insight/) (2024), [Tactical Breach Wizards](https://store.steampowered.com/app/1043810/Tactical_Breach_Wizards/) (2024)  
+Closed beta participation (just playing a game, reporting bugs in-app and filling out surveys):  
+[Soko Loco Deluxe](https://store.steampowered.com/app/1003730/Soko_Loco_Deluxe/) (2019), [Slipways](https://store.steampowered.com/app/1264280/Slipways/) (2021), [Old World](https://store.steampowered.com/app/597180/Old_World/) (2022), [Islands of Insight](https://store.steampowered.com/app/2071500/Islands_of_Insight/) (2024), [Tactical Breach Wizards](https://store.steampowered.com/app/1043810/Tactical_Breach_Wizards/) (2024)  
 Open betas: too many to count!  
 ### Hobbyist games (non-commercial)
 [Magnectoper](https://thatscar.itch.io/magnecopter) - puzzle game developed solo in 2018  
-[Blind Granny](https://v3.globalgamejam.org/2019/games/blind-granny) [(video)](https://youtu.be/p8c_tG48aaM) - a 48h jam game by a team of 3; part of Global Game Jam 2019  
+[Blind Granny](https://v3.globalgamejam.org/2019/games/blind-granny) (see [video](https://youtu.be/p8c_tG48aaM)) - a 48h jam game by a team of 3; part of Global Game Jam 2019  
 #### Thinky Collective
-Participation in jam-like collaborative projects on https://thinkycollective.itch.io/, each contributed to by 10+ participants:  
+Participation in jam-like collaborative projects on [https://thinkycollective.itch.io/](https://thinkycollective.itch.io/), each contributed to by 10 to 45 participants:  
 [What Gophers Go For](https://what-gophers-go-for.github.io/) (2019)  
 [Dr Jelly and Mr Slime](https://thinkycollective.itch.io/dr-jelly-and-mr-slime) (2020)  
 [Ahoist Cratey](https://thinkycollective.itch.io/ahoist-cratey) (2021)  
@@ -34,7 +34,7 @@ in progress: guide for Against the Storm
 
 # Contact
 My handle is just "thatscar" on most places  
-Send me (Skalmantas Šimėnas) an e-mail: skalmantas.simenas@gmail.com  
+Send me (Skalmantas Šimėnas) an e-mail: [skalmantas.simenas@gmail.com](mailto:skalmantas.simenas@gmail.com)  
 
 ---
 Last updated: 2026-02-27
